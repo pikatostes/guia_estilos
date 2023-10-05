@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    width: 48%;
+    /* Ancho de las columnas (puedes ajustarlo según tus necesidades) */
+    margin-bottom: 10px;
+    /* Espacio entre las filas */
+}
+
+.row {
+    width: 100%;
+    /* Ancho de la fila colapsada */
+    background-color: lightgray;
+    /* Color de fondo para destacar la fila colapsada */
+    text-align: center;
+    /* Centrar el contenido */
+    padding: 10px;
+    /* Espacio interno */
+    border: 5px solid red;
+}
+
+.main {
+    width: 50%;
+    height: 50%;
+}
